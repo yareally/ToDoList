@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <title> ToDo App</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/Bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/jQuery/jquery.ui.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jQuery/jquery.ui.min.js"></script>
+
+</head>
+
+<body>
+
+<h1> To Do List </h1>
+<div class="task-list" id="pending">
+    <h2> Pending </h2>
+    <div class="todo-task">
+        <div class="task-header">Task to Complete</div>
+        <div class="task-date"> 20/06/2019
+        </div>
+        <div class="task-description">
+        </div>
+    </div>
+</div>
+
+<div class="task-list" id="inProgress">
+    <h3>In Progress</h3>
+</div>
+
+<div class="task-list" id="completed">
+    <h3>Completed</h3>
+</div>
+
+<div class="task-list">
+    <h3>Add a task</h3>
+    <form id="todo-form">
+        <input type="text" placeholder="Title"/>
+        <textarea placeholder="Description"></textarea>
+        <input input type="text" id="datepicker"/>
+        <input type="button" class="btn btn-primary" value="Add Task"/>
+    </form>
+
+    <input type="button" class="btn btn-primary" value="Clear Data"/>
+
+    <div id="delete-div">Drag Here to Delete</div>
+</div>
+
+<script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="lib/Bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/jQuery/jquery.ui.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
